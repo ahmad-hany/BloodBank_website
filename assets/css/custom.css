@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid #3bade6;
+}
+
+/* Start General Rules */
+
+a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+a:hover {
+    color: #f00;
+}
+
+/* .active{
+    color: #f00;
+} */
+
+.vl {
+    border-left: 2px solid #5c6e82;
+}
+
+.first-color {
+    color: #2d3e50;
+}
+
+.second-color {
+    color: #fdae37;
+}
+
+.first-bgcolor {
+    background-color: #2d3e50;
+}
+.second-bgcolor {
+    background-color: #fdae37;
+}
+/* End General Rules */
+
+/* Start Header */
+
+/* Start Mini Navbar */
+
+.mini_nav {
+    background-color: #2c3b4e;
+}
+
+/* End Mini Navbar */
+
+/* End Header */
+
+/* Start Main */
+
+/* Start Home Section */
+
+.home .carousel-inner .carousel-item {
+    background-size: cover;
+    height: 400px;
+}
+
+.home .carousel-inner .carousel-item:first-of-type {
+    background-image: url(../imgs/header.jpg);
+}
+
+.home .carousel-indicators li {
+    border-radius: 50%;
+    border: 1px solid;
+    height: 15px;
+    width: 15px;
+}
+
+
+/* End Home Section */
+
+/* Start About Section */
+
+.about {
+    background-image: url(../imgs/about.png);
+    background-size: cover;
+    height: 335px;
+}
+
+/* End About Section */
+
+/* End Main */
+
+/* Start Footer */
+
+footer {
+    background-color: #1a1f25;
+}
+
+/* Start Mini Footer */
+
+footer .mini_footer {
+    background-color: #14171c;
+}
+
+/* End Mini Footer */
+
+/* End Footer */
+
+/* Start Media */
+
+
+
+/* End Media */
